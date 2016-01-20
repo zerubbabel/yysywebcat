@@ -29,7 +29,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    
+    <link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">
+    <!--<link href="<?php //echo base_url('assets/css/style-forms.css') ?>" rel="stylesheet">
+    <link href="<?php //echo base_url('assets/css/glyphicons.css') ?>" rel="stylesheet">
+    <link href="<?php //echo base_url('assets/css/jquery-ui-1.8.21.custom.css') ?>" rel="stylesheet">
+    -->
 </head>
 
 <body>
@@ -49,7 +54,7 @@
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#services" onclick = $("#menu-close").click(); >网上报名</a>
             </li>
             <li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
